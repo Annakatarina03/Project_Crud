@@ -1,6 +1,4 @@
-/**
- * Retirado a coluna "id" na instrução INSERT, com o auto incremento ativado não é necessário passar o valor da chave primária.
-*/
+/*** Retirado a coluna "id" na instrução INSERT, com o auto incremento ativado não é necessário passar o valor da chave primária. */
 
     public function create ($entitie) {
         $name = $entitie->getName();
